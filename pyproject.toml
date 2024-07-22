@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "ruff-bug"
+version = "0.0.0"
+description = "Ruff bug demo project"
+authors = []
+readme = "README.md"
+packages = [
+    { include = "mod1", from = "src" },
+]
+
+[tool.ruff.lint]
+extend-select = ["I"]
